@@ -32,14 +32,16 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>
       
-      $(document).ready(function(){
-        $("#btnInserirImagem").click(function(){
+      $(document).ready(function(e){
+        $("#btnInserirImagem").click(function(e){
+          e.preventDefault();
           $(".imagensHome").append("<input type='file' class='imagemBanner'>");
         });
       });
 
       $(document).ready(function(){
-        $("#btnInserirTelefone").click(function(){
+        $("#btnInserirTelefone").click(function(e){
+          e.preventDefault();
           $(".telefoneContato").append(
             "<input type='text' class='form-control inputTelefoneDDD' placeholder='DDD'>" +
             "<input type='text' class='form-control inputTelefone' placeholder='Telefone'>"
@@ -48,7 +50,8 @@
       });
 
       $(document).ready(function(){
-        $("#btnInserirEndereco").click(function(){
+        $("#btnInserirEndereco").click(function(e){
+          e.preventDefault();
           $(".endereco").append(
             "<input type='text' class='form-control inputEndereco' placeholder='Endereço'>" +
             "<input type='text' class='form-control inputNumero' placeholder='Número'>"
