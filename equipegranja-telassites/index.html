@@ -1,27 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Equipe Granja</title>
 
-    <!-- Bootstrap -->
+    <!-- CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/full-slider.css" rel="stylesheet">
 
-   
-  </head>
-  <body>
+</head>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<body>
 
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">    
+              <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Equipe Granja</a>
+                  </div>  
+                  <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="index.html">Home</a></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="cabelo.html">Cabelo</a></li>
+                          <li><a href="estetica.html">Estética</a></li>
+                          <li><a href="unha.html">Unha</a></li>
+                          <li class="divider"></li>
+                          <li><a href="noiva.html">Noiva</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="produtos.html">Produtos</a></li>
+                      <li><a href="equipe.html">Equipe</a></li>
+                      <li><a href="revista.html">Revista</a></li>
+                      <li><a href="ambiente.html">Ambiente</a></li>
+                      <li><a href="localizacao.html">Localização</a></li>
+                      <li><a href="contatos.html">Contatos</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>           
+    </nav>
+
+    <header id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                </div>
+            </div>
         </div>
-      </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+    
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+    <script src="bootstrap/js/jquery-1.11.0.js"></script>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
 </html>
