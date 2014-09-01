@@ -1,16 +1,336 @@
-/* Home */
 
 .inputHome{
 	width: 110px !important;
 }
 
-
-/* Contato / Localização */
-
 .contato{
-	margin-top: 50px;
+	margin-top: 25px;
 }
 
 .localizacao {
 	margin-bottom: 20px;
 }
+
+body{
+	background: #000;
+}
+
+h4{
+	color: #398439 !important; 
+}
+
+.titulo{
+	color: #FFF !important; 
+}
+
+hr{
+	border-color: #398439 !important;
+}
+
+small{
+	color: #398439 !important; 
+}
+
+label{
+	color:#FFF;
+}
+
+.page-header{
+	color: #FFF !important;
+	border-bottom: 1px solid #398439 !important;
+
+}
+
+.panel-heading{
+	background: #398439 !important;
+	color: #FFF !important;
+}
+
+.btn{
+	background: #398439 !important; 
+	color: #FFF !important;
+}
+
+.panel-default {
+    border-color: #398439 !important;
+}
+
+.btn-primary{
+	border-color: #398439 !important;
+}
+
+.menuRodapeEsquerda{
+	margin-bottom: 40px;
+	margin-top: 30px;
+	border-right: 1px solid #FFF;
+}
+
+.menuRodapeEsquerda li{
+	list-style: none;
+	color: #FFF;	
+}
+
+.menuRodapeEsquerda li a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.menuRodapeDireita{
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+
+.menuRodapeDireita li{
+	list-style: none;
+	color: #FFF;	
+}
+
+.menuRodapeDireita li a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+.navbar-default {
+    background-color: #000 !important;
+    border-color:  #000 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #FFF;
+    background-color: #398439 !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #398439 !important;
+}
+
+footer {
+    background: #398439 !important;
+    width: 100%;
+    margin: 0px 0px !important;
+}
+
+.rodapeNome{
+	color: #FFF !important;
+	margin-top: 20px;
+	float:left;
+}
+
+.linhaRodape{
+    border-top: 1px solid #FFF;
+}
+
+.home{
+	margin-bottom: 30px
+}
+
+
+.linhaRodape a .fa{
+	width: 50px;
+	height:50px;
+	padding-top: 12px;
+	font-size: 30px;
+	text-align: center;
+	color: #FFF !important;	
+	background: #000;
+	margin-left: 20px;
+	float: right;
+}
+
+.linhaRodape a .fa:hover{
+	color: #398439 !important;
+}
+
+.bedHeadTigi{
+	margin-bottom: 60px;
+}
+
+.cabelo{
+	margin-bottom: 60px;
+}
+
+.conteudoContato{
+	margin-bottom: 60px;
+}
+
+.contato h2{
+	color: #FFF;
+}
+
+.conteudoContato h3, h4{
+	color: #398439;
+}
+
+.conteudoContato p{
+	color: #FFF;
+}
+
+.estetica{
+	margin-bottom: 60px;
+}
+
+.kerastase{
+	margin-bottom: 60px;
+}
+
+.noiva{
+	margin-bottom: 60px;
+}
+
+.loreal{
+	margin-bottom: 60px;
+}
+
+.servicos{
+	margin-bottom: 60px;
+}
+
+.tanagra{
+	margin-bottom: 60px;
+}
+
+.unha{
+	margin-bottom: 60px;
+}
+
+.schwarzkopf{
+	margin-bottom: 60px;
+}
+
+.cabelo h3{
+	color: #398439;
+}
+
+.cabelo p, li{
+	color: #FFF;
+}
+
+.estetica h3{
+	color: #398439;
+}
+
+.estetica p, li{
+	color: #FFF;
+}
+
+.unha h3{
+	color: #398439;
+}
+
+.unha p, li{
+	color: #FFF;
+}
+
+.noiva h3{
+	color: #398439;
+}
+
+.noiva p, li{
+	color: #FFF;
+}
+
+.kerastase h3{
+	color: #398439;
+}
+
+.kerastase p, li{
+	color: #FFF;
+}
+
+.loreal h3{
+	color: #398439;
+}
+
+.loreal p, li{
+	color: #FFF;
+}
+
+.schwarzkopf h3{
+	color: #398439;
+}
+
+.schwarzkopf p, li{
+	color: #FFF;
+}
+
+.bedHeadTigi h3{
+	color: #398439;
+}
+
+.bedHeadTigi p, li{
+	color: #FFF;
+}
+
+.tanagra h3{
+	color: #398439;
+}
+
+.tanagra p, li{
+	color: #FFF;
+}
+
+.cadastro{
+	margin-top: 25px;
+}
+
+.conteudoCadastro{
+	margin-bottom: 60px;
+}
+
+.cadastro h2{
+	color: #FFF;
+}
+
+.numeroRisedencia{
+	width: 90px;
+}
+
+.ddd{
+	width: 60px;
+}
+
+.telefone{
+	width: 120px;
+}
+
+.telefoneTel{
+	margin-top: -60px !important;
+	margin-left: 70px;
+}
+
+.endereco{
+	width: 370px;
+}
+
+.numeroEndereco{
+	margin-top: -60px;
+	margin-left: 380px;
+}
+
+.equipe{
+	margin-top: 25px;
+}
+
+.ambienteTitulo{
+	color:#FFF;
+}
+
+.equipe{
+	color:#FFF;
+}
+
+.revista{
+	margin-top: 25px;
+}
+
+.revistaTitulo{
+	color: #FFF;
+}
+
+.textoCadastro{
+	color:#FFF;
+}
+
+
