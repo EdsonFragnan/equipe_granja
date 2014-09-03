@@ -346,3 +346,17 @@ footer {
 	margin-left: 75px;
 	margin-top: 20px;
 }
+
+.formularioLogin{
+	width: 400px;
+	margin-top: 50px;
+}
+
+.form-control{
+	margin-top:10px;
+}
+
+.btn{
+	margin-top: 10px;
+	margin-bottom: 150px;
+}
