@@ -350,6 +350,7 @@ footer {
 .formularioLogin{
 	width: 400px;
 	margin-top: 50px;
+	margin-bottom: 150px;
 }
 
 .form-control{
@@ -358,5 +359,5 @@ footer {
 
 .btn{
 	margin-top: 10px;
-	margin-bottom: 150px;
+	margin-bottom: 10px;
 }
