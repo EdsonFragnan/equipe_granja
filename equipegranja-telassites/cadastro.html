@@ -73,16 +73,16 @@ Equipe granja,granja equipe, Regina,Marco,Geraldo,guia da granja,beleza,tintura,
 					<form role="form" id="formularioContato" method="post">
 					  <div class="form-group">
 						<label for="Nome">Nome</label>
-						<input type="text" class="form-control required" id="InputNome" name="campoNome" placeholder="Nome">
+						<input type="text" class="form-control required" id="InputNome" name="campoNome" placeholder="Nome" required>
 					  </div>	
                       <div class="form-group">
 						<label for="E-mail">E-mail</label>
-						<input type="email" class="form-control required" id="InputEmail" placeholder="E-mail">
+						<input type="email" class="form-control required" id="InputEmail" placeholder="E-mail" required>
 					  </div>
                       <div class="form-group">
                         <label for="Sexo">Sexo</label><br />
                         <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                            <input type="radio" name="optionsRadios" id="optionsRadios1" required value="option1">
                             Masculino
                         </label>
                         <label>
@@ -95,8 +95,9 @@ Equipe granja,granja equipe, Regina,Marco,Geraldo,guia da granja,beleza,tintura,
                         <div class="control-label">
                           <label>Data de aniversário</label>
                         </div>
-                        <div class="controls">
-                          <select>
+                        <div class="controls" >
+                          <select required>
+                            <option></option>
                             <option>01</option>
                             <option>02</option>
                             <option>03</option>
@@ -129,8 +130,8 @@ Equipe granja,granja equipe, Regina,Marco,Geraldo,guia da granja,beleza,tintura,
                             <option>30</option>
                             <option>31</option>
                           </select>
-                          <select>
-                            <option>Selcione</option>
+                          <select required>
+                            <option value=""></option>
                             <option>Janeiro</option>
                             <option>Fevereiro</option>
                             <option>Março</option>
@@ -144,8 +145,8 @@ Equipe granja,granja equipe, Regina,Marco,Geraldo,guia da granja,beleza,tintura,
                             <option>Novembro</option>
                             <option>Dezembro</option>       
                           </select>
-                          <select>
-                            <option>Selecione</option>
+                          <select required>
+                            <option value=""></option>
                             <option>1970</option>
                             <option>1980</option>
                             <option>1990</option>
@@ -158,27 +159,28 @@ Equipe granja,granja equipe, Regina,Marco,Geraldo,guia da granja,beleza,tintura,
                       <div class="form-group">
                         <div>
                             <label for="DDD">DDD</label>
-                            <input type="text" class="form-control ddd required" placeholder="DDD">
+                            <input type="text" class="form-control ddd required" placeholder="DDD" required>
                         </div>
                         <div class="telefoneTel">
                             <label for="Telefone">Telefone</label>
-                            <input type="text" class="form-control telefone" placeholder="Telefone">
+                            <input type="text" class="form-control telefone" placeholder="Telefone" required>
                         </div>
                       </div>
 
                       <div class="form-group">
                         <label for="Endereco">Endereço</label>
-                        <input type="text" class="form-control endereco required" id="InputEndereco" placeholder="Endereço">
+                        <input type="text" class="form-control endereco required" id="InputEndereco" placeholder="Endereço" required>
                         <div class="numeroEndereco">
                             <label for="Numero">Número</label>
-                            <input type="text" class="form-control numeroRisedencia required" id="InputNumero" placeholder="Número">
+                            <input type="text" class="form-control numeroRisedencia required" id="InputNumero" placeholder="Número" required>
                         </div>    
                       </div>
                       
                       <div class="form-group">
                           <label for="Numero">Estado</label>
                           <br />
-                          <select>
+                          <select required>
+                            <option value="">Selecione</option>
                             <option value="AC">Acre</option>
                             <option value="AL">Alagoas</option>
                             <option value="AM">Amazonas</option>
@@ -210,15 +212,15 @@ Equipe granja,granja equipe, Regina,Marco,Geraldo,guia da granja,beleza,tintura,
                       </div>
                       <div class="form-group">
                         <label for="Cidade">Cidade</label>
-                        <input type="text" placeholder="Cidade" class="form-control required">
+                        <input type="text" placeholder="Cidade" class="form-control required" required>
                       </div>
                       <div class="form-group">
                         <label for="Login">Login</label>
-                        <input type="text" placeholder="Login" class="form-control required">
+                        <input type="text" placeholder="Login" class="form-control required" required>
                       </div>
                       <div class="form-group">
                         <label for="Senha">Senha</label>
-                        <input type="password" placeholder="Senha" class="form-control required">
+                        <input type="password" placeholder="Senha" class="form-control required" required>
                       </div>
 
 
